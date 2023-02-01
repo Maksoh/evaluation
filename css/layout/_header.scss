@@ -1,0 +1,36 @@
+.home--header{
+    display: flex;
+    flex-direction: column;
+
+    .header--top{
+        background-color: #000;
+        width: 100%;
+        display: flex;
+        color: #cdcfd8;
+        justify-content: space-around;
+
+        .header--top--left{
+            li{ display: inline-block;
+            }
+        }
+    }
+
+    .header--logo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            height: 100%;
+        }
+    }
+
+    .header--bottom{
+        display: flex;
+
+        nav ul{
+            display: flex;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
