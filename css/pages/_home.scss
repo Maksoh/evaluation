@@ -2,3 +2,101 @@ body {
     font-family: 'Roboto', sans-serif;
 
 }
+
+.summer{
+    background-color: #f4f4f4;
+    padding: 90px 0;
+    .summer--img{
+        text-align: center;
+        img{
+            height: 100%;
+        }
+    }
+
+}
+
+.trending--news{
+    padding: 80Px 0;
+
+    h2{
+        font-weight: 700;
+        font-size: 40px;
+        color: #051441;
+    }
+
+    .tNews--block{
+        display: flex;
+        gap: 30px;
+        .tNews{
+            .tNews--img img{
+                height: auto;
+                width: 100%;
+                border-radius: 10px;
+            }
+            .tNews--txt{
+                background-color: #fff;
+                position: relative;
+                border-radius: 10px;
+                bottom: 100px;
+                width: 80%;
+                left: -10px;
+                padding: 25px 25px 25px 20px;
+
+                h3{
+                    color: #051441;
+                    font-size: 18px;
+                    margin: 0px;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+                .tNews--txt--bottom{
+                    display: flex;
+                    justify-content: space-between;
+                    span{
+                        color: #7a8496;
+                        font-size: 11px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.most--popular{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 60px 0 40px 0;
+
+    .most--popular--block{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 10px;
+
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+            margin-left: 35px;
+        }
+
+        .popular--block{
+            display: flex;
+
+            
+            p{
+                color: #051441;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 21px;
+            }
+            span{
+                color: #838793;
+                font-size: 12px;
+            }
+        }
+        .popular--block:nth-of-type(1){
+            margin-left: 35px;
+        }
+    }
+}
