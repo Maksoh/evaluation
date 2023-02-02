@@ -1,0 +1,63 @@
+.about--members{
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+    .about--members--team{
+        span{
+            color: #eb566c;
+            font-weight: 500;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        h2{
+            font-weight: 700;
+            font-size: 50px;
+            color: #051441;
+        }
+    }
+
+    .about--members--cards{
+        display: flex;
+        gap: 45px;
+        justify-content: center;
+
+
+    
+        .member--card{
+            
+
+            .member--card--img:hover{
+                transform: scale(1.5);
+                transition: .5s;
+            }
+
+            .member--card--txt{
+                background-color: #fff;
+                padding: 20px 20px 20px 50px;
+                margin-top: -5px;
+            
+                h3{
+                    font-size: 25px;
+                    font-weight: 700;
+                    color: #161e46;
+                    margin: 0 0 10px 0;
+                }
+
+                span{
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #ff2143;
+                    padding: 20px 0 5px 0;
+                }
+            
+            
+            }
+        }
+    
+    
+    }
+
+
+}

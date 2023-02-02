@@ -12,17 +12,36 @@
         .header--top--left{
             li{ display: inline-block;
             }
+            li:nth-of-type(2){
+                text-transform: uppercase;
+                margin: 0 10px 0 10px ;
+            }
+            li:nth-of-type(3){
+                margin-left: 10px;
+            }
+        }
+        .header--top--right{
+            li{
+                display: inline-block;
+                margin-left: 10px;
+            }
+
+        }
+        ul{
+            font-size: 14px;
         }
     }
 
     .header--logo{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         img{
-            height: 100%;
+            width: 100%;
         }
     }
+
+    
 
     .header--bottom{
         background-color: #ff2143;
@@ -57,7 +76,6 @@
             margin: 0;
             li:nth-of-type(5){
                 padding-left: 15px;
-
                 margin: 0;
             }
         }

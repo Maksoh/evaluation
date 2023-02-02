@@ -1,0 +1,98 @@
+.moms--space{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
+
+
+    .spaceLeft{
+
+        .spaceLeft--txt{
+            margin-bottom: 25px;
+
+            h2{
+                font-size: 40px;
+                font-weight: 700;
+                color: #051441;
+            }
+            p{
+                font-size: 15px;
+                line-height: 30px;
+                color: #506172;
+                margin-bottom: 25px;
+                text-align: left;
+                max-width: 95% ;
+                min-width: 95% ;
+            }
+        }
+        .spaceLeft--share{
+            display: flex;
+            align-items: center;
+
+            h2{
+                font-size: 40px;
+                font-weight: 700;
+                color: #051441;
+                margin: 0 20px 8px 0;
+            }
+
+            .share--socials *{
+                padding-left: 20px;
+            }
+        }
+    }
+
+
+
+
+
+
+    .spaceRight{
+        .spaceRight--socials{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            background-color: #fff;
+            border-radius: 10px;
+            gap: 10px;
+            padding: 25px 20px;
+            margin-bottom: 40px;
+            
+    
+            .whatsnew--social{
+                display: flex;
+                border: 1px solid rgba(128, 128, 128, 0.267);
+                border-radius: 10px;
+                align-items: center;
+                padding: 10px;
+                gap: 10px;
+    
+                p{
+                    margin: 0;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                span{
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .spaceRight--img{
+            text-align: center;
+        }
+    }
+
+}
+
+@media screen and (max-width:990px) {
+
+    .spaceRight--img{
+        display: none;
+    }
+
+    .moms--space{
+        grid-template-columns: 1fr;
+    }
+    
+}
