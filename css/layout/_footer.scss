@@ -53,6 +53,12 @@ footer{
                     font-size: 16px;
                     font-weight: 500;
                     margin-top: 0;
+                    transition: .7s;
+                }
+                h5:hover{
+                    color: crimson;
+                    cursor: pointer;
+                    transition: .7s;
                 }
                 p{
                     color: #707b8e;
@@ -65,10 +71,49 @@ footer{
         .footer--right{
             box-sizing: border-box;
             img{
-                width: 100%;
+                width: 70%;
             }
         }
 
     }
+}
+
+@media screen and (max-width: 768px){
+
+
+    footer .footer--column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 100px 0;
+
+        .footer--right{
+            padding-top: 30px;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+    footer .footer--column {
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 100px 0;
+
+        .footer--mid{
+            h4{
+                margin: 10px 0 5px 0;
+            }
+        }
+
+        .footer--right{
+            padding-top: 30px;
+            img{
+                width: 45%;
+            }
+        }
+    }
+
+
 }
 
