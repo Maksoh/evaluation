@@ -3,10 +3,15 @@
     grid-template-columns: 2fr 1fr;
     padding-top: 30px;
     padding-bottom: 100px;
+    gap: 30px;
 
 
 
     .spaceLeft{
+
+        img{
+            width:100%;
+        }
 
         .spaceLeft--txt{
             margin-bottom: 25px;
@@ -36,9 +41,13 @@
                 color: #051441;
                 margin: 0 20px 8px 0;
             }
+            .share--socials{
+                display: flex;
+            }
 
             .share--socials *{
                 padding-left: 20px;
+                width: 100%;
             }
         }
     }
@@ -94,5 +103,17 @@
     .moms--space{
         grid-template-columns: 1fr;
     }
+
+    .share--socials{
+        display: flex;
+        margin-bottom: 10px;
+    }
     
+}
+
+@media screen and (max-width:768px) {
+
+    .moms--space .spaceLeft .spaceLeft--share{
+        padding-bottom: 30px;
+    }
 }
